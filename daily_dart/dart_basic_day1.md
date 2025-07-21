@@ -61,32 +61,16 @@ You have a **magic box 🧰** where you can **store anything** — your toys, ca
 
 That **magic box** is called a **variable** in Dart.
 
-| Type | Use for... | Example |
-| --- | --- | --- |
-
-| `int` | Whole numbers | `int age = 20;` |
-| --- | --- | --- |
-
-| `double` | Decimal numbers | `double temp = 36.6;` |
-| --- | --- | --- |
-
-| `String` | Text | `String name = "Shams";` |
-| --- | --- | --- |
-
-| `bool` | True/False | `bool isOn = true;` |
-| --- | --- | --- |
-
-| `var` | Let Dart decide the type | `var x = "hello";` |
-| --- | --- | --- |
-
-| `dynamic` | Can change type any time | `dynamic x = 10; x = "Hi";` |
-| --- | --- | --- |
-
-| `final` | Fixed after assignment (runtime) | `final city = "Mumbai";` |
-| --- | --- | --- |
-
-| `const` | Fixed and known at compile time | `const pi = 3.14;` |
-| --- | --- | --- |
+| Type      | Use for...                      | Example                     |
+| ---       | ---                             | ---                         |
+| `int`     | Whole numbers                   | `int age = 20;`             |
+| `double`  | Decimal numbers                 | `double temp = 36.6;`       |
+| `String`  | Text                            | `String name = "Shams";`    |
+| `bool`    | True/False                      | `bool isOn = true;`         |
+| `var`     | Let Dart decide the type        | `var x = "hello";`          |
+| `dynamic` | Can change type any time        | `dynamic x = 10; x = "Hi";` |
+| `final`   | Fixed after assignment (runtime)| `final city = "Mumbai";`    |
+| `const`   | Fixed and known at compile time | `const pi = 3.14;`          |
 
 ```dart
 void main(){
