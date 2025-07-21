@@ -1,45 +1,44 @@
 - Dart is case sensitive language.
 
-# Void:
+------------------------------------------------------------------------------------
 
+//understanding void
+Void:
 You have a **robot friend** 🤖.
-
 You can give it commands like:
+- Say Hello
+- Clap hands
+- Dance
+Now... sometimes your robot just does things — but it doesn’t give anything back to you.
 
-- **Say Hello**
-- **Clap hands**
-- **Dance**
+👶 That’s what `void` means in Dart:
+It means: "Do something, but don’t give me anything back."
 
-Now... sometimes your robot just **does things** — but it **doesn’t give anything back** to you.
+------------------------------------------------------------------------------------
 
-### 👶 That’s what `void` means in Dart:
-
-> It means: "Do something, but don’t give me anything back."
-> 
-
-# Main:
-
-## What is `main()` in Dart?
-
-> main() is the entry point — the first thing Dart runs when your app or script starts.
-> 
+//understanding main
+Main:
+What is `main()` in Dart?
+main() is the entry point — the first thing Dart runs when your app or script starts. 
 
 Just like a story starts on page 1, your Dart program **starts from `main()`**.
 
-## 🧾 Syntax of `main()`
 
-```dart
+
+🧾 Syntax of `main()`
+
 void main() {
   // your code here
 }
-```
 
 - `void` → means main doesn’t return anything.
 - `main` → is the special name Dart looks for.
 - `()` → means it’s a function.
 - `{}` → holds the code that runs.
 
-## 🛠️ What Can You Put in `main()`?
+
+
+🛠️ What Can You Put in `main()`?
 
 Almost **anything!** Like:
 
@@ -49,44 +48,28 @@ Almost **anything!** Like:
 - Create variables
 - Start your app logic
 
-# Variables:
+--------------------------------------------------------------------------------------
 
-# what is a variable
+//understanding variables
+Variables:
 
+what is a variable
 In programming, a variable is like a container or a storage location that holds a value. You give this container a name, and you can put different types of data into it, such as numbers, text, or even more complex structures.
 
-## 🧠 Imagine This:
+🧠 Imagine This:
 
-You have a **magic box 🧰** where you can **store anything** — your toys, candies, or even your name!
+You have a magic box 🧰 where you can store anything — your toys, candies, or even your name!
+That magic box is called a variable in Dart.
 
-That **magic box** is called a **variable** in Dart.
-
-| Type | Use for... | Example |
-| --- | --- | --- |
-
-| `int` | Whole numbers | `int age = 20;` |
-| --- | --- | --- |
-
-| `double` | Decimal numbers | `double temp = 36.6;` |
-| --- | --- | --- |
-
-| `String` | Text | `String name = "Shams";` |
-| --- | --- | --- |
-
-| `bool` | True/False | `bool isOn = true;` |
-| --- | --- | --- |
-
-| `var` | Let Dart decide the type | `var x = "hello";` |
-| --- | --- | --- |
-
-| `dynamic` | Can change type any time | `dynamic x = 10; x = "Hi";` |
-| --- | --- | --- |
-
-| `final` | Fixed after assignment (runtime) | `final city = "Mumbai";` |
-| --- | --- | --- |
-
-| `const` | Fixed and known at compile time | `const pi = 3.14;` |
-| --- | --- | --- |
+| Type      | Use for...                      | Example                     |
+| `int`     | Whole numbers                   | `int age = 20;`             |
+| `double`  | Decimal numbers                 | `double temp = 36.6;`       |
+| `String`  | Text                            | `String name = "Shams";`    |
+| `bool`    | True/False                      | `bool isOn = true;`         |
+| `var`     | Let Dart decide the type        | `var x = "hello";`          |
+| `dynamic` | Can change type any time        | `dynamic x = 10; x = "Hi";` |
+| `final`   | Fixed after assignment (runtime)| `final city = "Mumbai";`    |
+| `const`   | Fixed and known at compile time | `const pi = 3.14;`          |
 
 ```dart
 void main(){
