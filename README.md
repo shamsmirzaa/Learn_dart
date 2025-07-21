@@ -28,5 +28,24 @@ Feel free to explore or contribute if you're on the same journey.
 
 ---
 
-## 📂 Folder Structure
+## 📖 License
+
+- ✍️ All written content (notes, explanations) is licensed under [Creative Commons Attribution 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+- 💻 All code is licensed under the [MIT License](LICENSE).
+
+You're free to use, share, and modify — just give credit 🙌
+
+---
+
+## 🌱 Connect With Me
+
+If you have suggestions, improvements, or want to learn together, feel free to reach out:
+
+- GitHub: [shamsmirza](https://github.com/shamsmirzaa)
+- LinkedIn: [https://www.linkedin.com/in/mirzamakesapps/]
+- Discord: [shamsmirzaa]
+
+---
+
+**Happy Learning! 🧠💡**
 
