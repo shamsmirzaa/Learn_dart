@@ -71,6 +71,7 @@ That magic box is called a variable in Dart.
 | `final`   | Fixed after assignment (runtime)| `final city = "Mumbai";`    |
 | `const`   | Fixed and known at compile time | `const pi = 3.14;`          |
 
+
 ```dart
 void main(){
   String name = 'shams';
@@ -84,6 +85,8 @@ void main(){
 }
 ```
 
+-------------------------------------------------------------------------------
+
 ## To run dart in vs code
 
 ```markdown
@@ -94,9 +97,13 @@ import 'dart:io';
 dart run filename.dart
 ```
 
+-------------------------------------------------------------------------------
+
 ## To build an simple calculator
 
 we have to use stdin.readLineSync(); to read the user inputs.
+
+
 
 ```dart
 import 'dart:io';
@@ -126,20 +133,21 @@ void main() {
 ```
 
 `stdin.readLineSync()` **always returns a `String?`** (nullable `String`).
-
 So if you want to get an **int** from user input, you must convert it manually using:
+
+
 
 ```dart
 num = int.parse(stdin.readLineSync()!);
 ```
 
-### 🧠 Here's what's happening:
-
+🧠 Here's what's happening:
 1. `stdin.readLineSync()` → reads input as a `String?` (can be `null`)
 2. `!` → tells Dart “don’t worry, it’s not null” (null check)
 3. `int.parse(...)` → converts that string (like `"42"`) to an integer (`42`)
 
-## Var and dynamic
+
+Var and dynamic
 
 ### What is a Var?
 
