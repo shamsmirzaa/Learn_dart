@@ -1,44 +1,45 @@
 - Dart is case sensitive language.
 
-------------------------------------------------------------------------------------
+# Void:
 
-//understanding void
-Void:
 You have a **robot friend** 🤖.
+
 You can give it commands like:
-- Say Hello
-- Clap hands
-- Dance
-Now... sometimes your robot just does things — but it doesn’t give anything back to you.
 
-👶 That’s what `void` means in Dart:
-It means: "Do something, but don’t give me anything back."
+- **Say Hello**
+- **Clap hands**
+- **Dance**
 
-------------------------------------------------------------------------------------
+Now... sometimes your robot just **does things** — but it **doesn’t give anything back** to you.
 
-//understanding main
-Main:
-What is `main()` in Dart?
-main() is the entry point — the first thing Dart runs when your app or script starts. 
+### 👶 That’s what `void` means in Dart:
+
+> It means: "Do something, but don’t give me anything back."
+> 
+
+# Main:
+
+## What is `main()` in Dart?
+
+> main() is the entry point — the first thing Dart runs when your app or script starts.
+> 
 
 Just like a story starts on page 1, your Dart program **starts from `main()`**.
 
+## 🧾 Syntax of `main()`
 
-
-🧾 Syntax of `main()`
-
+```dart
 void main() {
   // your code here
 }
+```
 
 - `void` → means main doesn’t return anything.
 - `main` → is the special name Dart looks for.
 - `()` → means it’s a function.
 - `{}` → holds the code that runs.
 
-
-
-🛠️ What Can You Put in `main()`?
+## 🛠️ What Can You Put in `main()`?
 
 Almost **anything!** Like:
 
@@ -48,29 +49,44 @@ Almost **anything!** Like:
 - Create variables
 - Start your app logic
 
---------------------------------------------------------------------------------------
+# Variables:
 
-//understanding variables
-Variables:
+# what is a variable
 
-what is a variable
 In programming, a variable is like a container or a storage location that holds a value. You give this container a name, and you can put different types of data into it, such as numbers, text, or even more complex structures.
 
-🧠 Imagine This:
+## 🧠 Imagine This:
 
-You have a magic box 🧰 where you can store anything — your toys, candies, or even your name!
-That magic box is called a variable in Dart.
+You have a **magic box 🧰** where you can **store anything** — your toys, candies, or even your name!
 
-| Type      | Use for...                      | Example                     |
-| `int`     | Whole numbers                   | `int age = 20;`             |
-| `double`  | Decimal numbers                 | `double temp = 36.6;`       |
-| `String`  | Text                            | `String name = "Shams";`    |
-| `bool`    | True/False                      | `bool isOn = true;`         |
-| `var`     | Let Dart decide the type        | `var x = "hello";`          |
-| `dynamic` | Can change type any time        | `dynamic x = 10; x = "Hi";` |
-| `final`   | Fixed after assignment (runtime)| `final city = "Mumbai";`    |
-| `const`   | Fixed and known at compile time | `const pi = 3.14;`          |
+That **magic box** is called a **variable** in Dart.
 
+| Type | Use for... | Example |
+| --- | --- | --- |
+
+| `int` | Whole numbers | `int age = 20;` |
+| --- | --- | --- |
+
+| `double` | Decimal numbers | `double temp = 36.6;` |
+| --- | --- | --- |
+
+| `String` | Text | `String name = "Shams";` |
+| --- | --- | --- |
+
+| `bool` | True/False | `bool isOn = true;` |
+| --- | --- | --- |
+
+| `var` | Let Dart decide the type | `var x = "hello";` |
+| --- | --- | --- |
+
+| `dynamic` | Can change type any time | `dynamic x = 10; x = "Hi";` |
+| --- | --- | --- |
+
+| `final` | Fixed after assignment (runtime) | `final city = "Mumbai";` |
+| --- | --- | --- |
+
+| `const` | Fixed and known at compile time | `const pi = 3.14;` |
+| --- | --- | --- |
 
 ```dart
 void main(){
@@ -85,8 +101,6 @@ void main(){
 }
 ```
 
--------------------------------------------------------------------------------
-
 ## To run dart in vs code
 
 ```markdown
@@ -97,13 +111,9 @@ import 'dart:io';
 dart run filename.dart
 ```
 
--------------------------------------------------------------------------------
-
 ## To build an simple calculator
 
 we have to use stdin.readLineSync(); to read the user inputs.
-
-
 
 ```dart
 import 'dart:io';
@@ -133,21 +143,20 @@ void main() {
 ```
 
 `stdin.readLineSync()` **always returns a `String?`** (nullable `String`).
+
 So if you want to get an **int** from user input, you must convert it manually using:
-
-
 
 ```dart
 num = int.parse(stdin.readLineSync()!);
 ```
 
-🧠 Here's what's happening:
+### 🧠 Here's what's happening:
+
 1. `stdin.readLineSync()` → reads input as a `String?` (can be `null`)
 2. `!` → tells Dart “don’t worry, it’s not null” (null check)
 3. `int.parse(...)` → converts that string (like `"42"`) to an integer (`42`)
 
-
-Var and dynamic
+## Var and dynamic
 
 ### What is a Var?
 
