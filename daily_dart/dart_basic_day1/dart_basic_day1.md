@@ -55,6 +55,9 @@ Almost **anything!** Like:
 
 In programming, a variable is like a container or a storage location that holds a value. You give this container a name, and you can put different types of data into it, such as numbers, text, or even more complex structures.
 
+<img width="804" height="486" alt="image" src="https://github.com/user-attachments/assets/831877c4-ef71-4c9a-96bf-671a3c66b38a" />
+
+
 ## 🧠 Imagine This:
 
 You have a **magic box 🧰** where you can **store anything** — your toys, candies, or even your name!
