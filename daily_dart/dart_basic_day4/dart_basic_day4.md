@@ -144,3 +144,78 @@ void main() {
   print(r"C:\Users\shams\Documents");       // raw string way ✅ easier!
 }
 ```
+# Multi-Line String
+
+## 📜 What is a Multi-Line String?
+
+A **multi-line string** allows you to write a string across **multiple lines**, without needing to manually use `\n` or string concatenation.
+
+---
+
+## ✅ How to Write Multi-Line Strings
+
+You use **triple quotes** (`'''` or `"""`) to create a multi-line string.
+
+### ✏️ Example with **single quotes** (`'''`):
+
+```dart
+void main() {
+  String poem = '''
+Roses are red,
+Violets are blue,
+Flutter is awesome,
+And so are you!
+''';
+
+  print(poem);
+}
+```
+
+### ✏️ Example with **double quotes** (`"""`):
+
+```dart
+void main() {
+  String message = """
+Hello there!
+This is a multi-line string.
+It can have "quotes" and even 'quotes' inside.
+""";
+
+  print(message);
+}
+```
+
+---
+
+## 🔍 Why use Multi-Line Strings?
+
+- For **long text blocks** (like emails, poems, or JSON)
+- Easier to **read and maintain**
+- No need for `+`, `\n`, or escaping quotes often
+
+---
+
+## ⚠️ Notes:
+
+1. Triple quotes **preserve the formatting**, including spaces and line breaks.
+2. You can use **either** single (`'''`) or double (`"""`) triple quotes.
+3. If you want to **avoid new lines**, don't use multi-line strings — use regular strings or string interpolation.
+
+---
+
+### 🧒 Easy Example:
+
+```dart 
+String instructions = '''
+Step 1: Open the app
+Step 2: Click on "Start"
+Step 3: Enjoy!
+''';
+```
+
+Output:
+```dart
+Step 1: Open the app
+Step 2: Click on "Start"
+Step 3: Enjoy!
+```
